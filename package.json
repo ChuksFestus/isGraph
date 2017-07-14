@@ -1,0 +1,35 @@
+{
+  "name": "isgraph",
+  "version": "1.0.0",
+  "description": "Just a simple hackernews clone with graphql",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChuksFestus/isGraph.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Chuks Festus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChuksFestus/isGraph/issues"
+  },
+  "homepage": "https://github.com/ChuksFestus/isGraph#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "graphql": "^0.10.3",
+    "graphql-server-express": "^1.0.0",
+    "graphql-tools": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.2.0",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
