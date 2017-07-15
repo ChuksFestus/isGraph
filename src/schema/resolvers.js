@@ -23,5 +23,8 @@ module.exports = {
 			links.push(newLink)
 			return newLink
 		}
+	},
+	Link: {
+		id: root => root._id || root.id
 	}
 }
